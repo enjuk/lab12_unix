@@ -15,3 +15,5 @@ Warnings
   - Professors need to have at least one rating stored in the professor_rating.csv file or the program will crash.
   - There is no validation of the data files, so if they are corrupted from outside the program it will likely crash.
   - Working data files are stored in the _default_files directory. Copy them to the main project directory if you need to replace corrupted files.
+  - The pause program functionality doesn't seem to work if running in windows subsystem linux.
+
